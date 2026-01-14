@@ -2,6 +2,8 @@
 
 ## Économie de l’énergie et de l’environnement
 
+Ce dépôt contient l’ensemble des travaux réalisés dans le cadre de mon **stage d’excellence** effectué au **Laboratoire GAEL (Grenoble Applied Economics Laboratory)**, portant sur l’analyse technico-économique des réseaux de chaleur urbains et l’intégration des énergies renouvelables, sous incertitude.
+
 ### 👤 Auteur
 
 **Mohamed FOFANA**
@@ -30,11 +32,45 @@ Ce stage s’inscrit dans le cadre du **projet européen RES4City**, dont l’ob
 
 Le travail vise à :
 
-* Évaluer la **faisabilité technico-économique** de scénarios énergétiques alternatifs
-* Intégrer les **incertitudes économiques** (prix, coûts, taux d’actualisation)
-* Proposer un **mix énergétique optimal** à l’aide d’outils issus de la finance quantitative
+ * Étudier la transition vers un mix énergétique durable dans les réseaux de chaleur
+
+ * Évaluer la rentabilité économique des différentes sources d’énergie
+
+ * Intégrer les incertitudes économiques (prix, coûts, taux d’actualisation)
+
+ * Appliquer des outils issus de la finance quantitative (Monte Carlo, théorie du portefeuille)
 
 ---
+
+## 🗂️ Structure du dépôt
+
+```bash
+
+GAEL_Stage_d-Excellence/
+│ ├── Articles/
+│     └── Articles scientifiques utilisés pour la revue de littérature
+│
+│ ├── Fichiers_EXCEL/
+│     └── Données, régressions, simulations Monte Carlo, analyses de sensibilité
+│
+│ ├── MATLAB/
+│     └── Scripts d’analyse statistique, régressions et optimisation
+│
+│ ├── Python/
+│     └── Analyses de données, visualisations, Monte Carlo, régressions
+│
+│ ├── Mon_Rapport_De_Stage.pdf
+│     └── Rapport académique complet (document principal)
+│
+│ ├── Planning.pdf
+│     └── Planning prévisionnel du stage
+│
+│ ├── .gitignore
+│     └── Fichiers ignorés (ex : documents personnels)
+│
+│ └── README.md
+
+```
 
 ## 📚 Contenu du rapport
 
@@ -53,10 +89,13 @@ Le travail vise à :
 
 ### 3. Analyse du risque et optimisation
 
-* Simulation de **Monte Carlo** (2000 itérations)
-* Calcul de la **Valeur Actuelle Nette (VAN)** sous incertitude
-* Construction de la **frontière efficiente**
-* Optimisation risque–rendement du portefeuille énergétique
+* Simulation de Monte Carlo (2000 itérations)
+* Distribution de la Valeur Actuelle Nette (VAN)
+* Mesure du risque : variance, écart-type, skewness, kurtosis
+* Risque de perte 
+* Application de la théorie moderne du portefeuille (Markowitz)
+* Construction de la frontière efficiente
+* Optimisation risque–rendement du mix énergétique
 
 ### 4. Analyse de sensibilité
 
@@ -76,7 +115,7 @@ Le travail vise à :
 * **Matlab**
 
   * Modélisation statistique
-  * Régressions (`fitlm`)
+  * Régressions (`fitlm`), analyses statistiques, graphiques 
   * Analyse de sensibilité
 
 * **Excel**
@@ -117,8 +156,9 @@ Le travail vise à :
 
 ## 📄 Fichier principal
 
-* `Mon_Rapport_De_Stage.pdf` — Rapport complet du stage
-
+* `Mon_Rapport_De_Stage.pdf`
+  
+Rapport académique complet détaillant la méthodologie, les résultats et les conclusions.
 ---
 
 ## 🎓 Compétences développées
