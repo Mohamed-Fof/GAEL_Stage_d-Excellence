@@ -47,6 +47,7 @@ Le travail vise à :
 ```bash
 
 GAEL_Stage_d-Excellence/
+│
 │ ├── Articles/
 │     └── Articles scientifiques utilisés pour la revue de littérature
 │
