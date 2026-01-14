@@ -7,7 +7,7 @@ Ce dépôt contient l’ensemble des travaux réalisés dans le cadre de mon **s
 ### 👤 Auteur
 
 **Mohamed FOFANA**
-L2 MIASHS — Parcours Économie
+L2 MIASHS (2024/25) — Parcours Économie
 Université Grenoble Alpes
 
 ### 🏛️ Structure d’accueil
